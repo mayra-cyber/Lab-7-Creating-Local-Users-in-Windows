@@ -46,9 +46,9 @@ This method demostrates command-line user administration, which is commonly used
 
 ## ⚠️ Issues Encountered and Resolution
 
-**-Issue:** Newly created users did not immediately appear when listing users with standard directory commands. 
+**- Issue:** Newly created users did not immediately appear when attempting to enumarate accounts using standard directory commands. 
 
-**-Resolution:** Used the Get-LocalUser command to properly enumerate local user accounts in the system.
+**- Resolution:** Used the Get-LocalUser command to properly enumerate local user accounts in the system.
 
 ---
 
@@ -56,7 +56,7 @@ This method demostrates command-line user administration, which is commonly used
 
 Successfully created eight local user accounts using both GUI and PowerShell methods.
 
-Confirmed that local accounts are created at the system level and do not automatically generate individual profile folders until the user logs in for the first time. 
+Confirmed that local accounts are created at the system level and that user profile directories are generated only upon first successful login. 
 
 ---
 
@@ -64,9 +64,9 @@ Confirmed that local accounts are created at the system level and do not automat
 
 This lab strengthended my understaning of: 
 
-- The difference between GUI-based and command line administration.
-- Secure password handling using SecireString.
-- How local accounts function within Windows syetems.
+- The difference between GUI-based and command-line administration in Windows environments.
+- Secure password handling using SecireString to prevent plaintext exposere.
+- How local user accounts are stored and managed at the operating sysem level.
 
 Future Practice:
 
