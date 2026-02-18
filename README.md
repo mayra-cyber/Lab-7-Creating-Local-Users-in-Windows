@@ -1,4 +1,4 @@
-# Lab-7-Creating-Local-Users-in-Windows
+# Lab 7 Creating Local Users in Windows
 Practice creating, managing, and removing local user accounts in Windows 11
 
 ## 📅 Date
@@ -8,9 +8,11 @@ February 18, 2026
 
 ## 🎯 Objective
 
+This lab demostrates the creation and management of local user accounts in Windows 11 using both graphical and command-line administrative tools.
+
 ---
 
-## 🖥️ Environment Drtails
+## 🖥️ Environment Details
 
 | Component | Details |
 | ----------- | -------- |
