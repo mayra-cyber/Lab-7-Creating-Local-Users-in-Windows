@@ -46,8 +46,9 @@ This method demostrates command-line user administration, which is commonly used
 
 ## ⚠️ Issues Encountered and Resolution
 
-**Issue:** Newly created users did not immediately appear when listing directory contents. 
-**Resolution:** Used the Get-LocalUser command to properly enumerate local usder accounts in the system.
+**-Issue:** Newly created users did not immediately appear when listing users with standard directory commands. 
+
+**-Resolution:** Used the Get-LocalUser command to properly enumerate local user accounts in the system.
 
 ---
 
@@ -69,6 +70,6 @@ This lab strengthended my understaning of:
 
 Future Practice:
 
-Next, I plan to practice modifying user permissions and adding accounts to security groupds. 
+Next, I plan to practice modifying user permissions and adding accounts to security groups. 
 
 ---
